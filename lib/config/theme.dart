@@ -3,16 +3,23 @@ import 'package:flutter/material.dart';
 class MyThemeData {
   ThemeData themeData = ThemeData(
     textTheme: const TextTheme(
-      headline3: TextStyle(
-        fontSize: 28,
-        fontWeight: FontWeight.bold,
+      subtitle2: TextStyle(
+        color: Colors.grey,
       ),
-      bodyText1: TextStyle(fontSize: 16, color: Colors.grey),
-      bodyText2: TextStyle(
-        fontSize: 30,
+      headline3: TextStyle(
+        color: Colors.white,
+        fontWeight: FontWeight.w700,
+      ),
+      headline4: TextStyle(
+        color: Colors.white,
+        fontWeight: FontWeight.w600,
+      ),
+      bodyText1: TextStyle(
+        color: Colors.grey,
       ),
     ),
     brightness: Brightness.dark,
     scaffoldBackgroundColor: Colors.black,
+    dividerColor: Colors.grey,
   );
 }
